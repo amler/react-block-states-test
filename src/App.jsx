@@ -21,7 +21,7 @@ const colors =[
 function App() {
   return (
     <div>
-      <ColorBox  />
+      <ColorBox colors={colors} />
     </div>
   )
 }
