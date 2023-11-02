@@ -1,8 +1,7 @@
-import { useState } from 'react'
 import './App.css'
-import ColorBox from './ColorBox'
+import ColorBoxGrid from './ColorBoxGrid'
 
-const colors =[
+const colors = [
   '#FF0000',
   '#FF5349',
   '#FFAE42',
@@ -21,9 +20,9 @@ const colors =[
 function App() {
   return (
     <div>
-      <ColorBox colors={colors} />
+      <ColorBoxGrid colors={colors} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
